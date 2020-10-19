@@ -1,0 +1,35 @@
+
+<!--Layout file which describes the structure of the row that gets dynamically
+    created  for the array. This view is inflated within the recycler-view.-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="16dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Checkbox for marking the task as complete or not. -->
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tool:text="Study"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            tool:ignore="RtlSymmetry"
+            android:buttonTint="@color/theme"
+            tool:targetApi="lollipop" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

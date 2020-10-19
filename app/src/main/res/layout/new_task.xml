@@ -1,0 +1,34 @@
+
+<!--Layout file for creating New task . This screen will be displayed when the
+    new task button is clicked.-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <!-- Text field to Enter task . -->
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="@string/edit_task_hint" />
+
+    <!-- Save button for storing the task . -->
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTaskText"
+        android:text="@string/Save_button"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</RelativeLayout>

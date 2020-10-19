@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">todoist</string>
+    <string name="Tasks_Header">Tasks</string>
+    <string name="decription">TODO</string>
+    <string name="edit_task_hint">Add your New Task</string>
+    <string name="Save_button">Save</string>
+</resources>
