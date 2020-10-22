@@ -4,4 +4,5 @@
     <string name="decription">TODO</string>
     <string name="edit_task_hint">Add your New Task</string>
     <string name="Save_button">Save</string>
+    <string name="confirmation">Are you sure you want to delete this Task?</string>
 </resources>
