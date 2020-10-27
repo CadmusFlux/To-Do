@@ -6,48 +6,163 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <!-- Header at the top of recyclerview-->
-
-    <TextView
-        android:id="@+id/tasksText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Tasks_Header"
-        android:textColor="@android:color/black"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginTop="16dp"
-        android:textSize="32sp"
-        android:layout_marginLeft="16dp" />
-
-     <!-- The array-list connects to this recyclerview through Adapter.
-          Task_layout xml (containing card-view for each row) gets inflated
-          here.
-      -->
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/tasksRecyclerView"
+    
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tasksText"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:nestedScrollingEnabled="true"
-        tools:targetApi="lollipop" />
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:orientation="vertical"
 
-    <!--Floating action-button for the plus icon.-->
+        tools:targetApi="lollipop">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id = "@+id/fab"
-        android:layout_width = "wrap_content"
-        android:layout_height = "wrap_content"
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="-55dp"
+            app:cardElevation="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img"
+                    android:contentDescription="@string/descript"
+                    android:scaleType="centerCrop"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/datetext"
+                         />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Header at the top of recyclerview-->
+
+        <TextView
+            android:id="@+id/tasksText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Tasks_Header"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/roboto_bold"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:textSize="36sp"
+            android:layout_marginLeft="50dp" />
+
+         <!-- The array-list connects to this recyclerview through Adapter.
+              Task_layout xml (containing card-view for each row) gets inflated
+              here.
+          -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tasksRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:nestedScrollingEnabled="true"
+            tools:targetApi="lollipop"
+            android:layout_marginHorizontal="50dp"            android:paddingBottom="80dp"
+            />
+
+        <!--Floating action-button for the plus icon.-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="32dp"
-        android:backgroundTint="@color/theme"
-        android:src="@drawable/ic_baseline_add_24"
-        tools:targetApi="lollipop" />
+        android:orientation="horizontal"
+        android:paddingHorizontal="20dp"
+        android:background="@color/white"
+        >
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id = "@+id/fab"
+            android:layout_width = "50dp"
+            android:layout_height = "50dp"
+            app:fabCustomSize="50dp"
+            android:backgroundTint="@color/sectheme"
+            app:elevation="2dp"
+            android:src="@drawable/ic_baseline_share_24"
+            android:layout_gravity="center"
+            tools:targetApi="lollipop" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=" 1"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id = "@+id/fab1"
+                android:layout_width = "50dp"
+                android:layout_height = "50dp"
+                app:fabCustomSize="50dp"
+                android:backgroundTint="@color/sectheme"
+                app:elevation="2dp"
+                android:src="@drawable/ic_baseline_favorite_24"
+                android:layout_gravity="center"
+                tools:targetApi="lollipop" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=" 1"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id = "@+id/fab2"
+                android:layout_width = "65dp"
+                android:layout_height = "65dp"
+                android:backgroundTint="@color/sectheme"
+                app:fabCustomSize="65dp"
+                app:elevation="2dp"
+                android:src="@drawable/ic_baseline_add_24"
+                android:layout_gravity="center"
+                app:maxImageSize="40dp"
+                tools:targetApi="lollipop" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=" 1"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id = "@+id/fab3"
+                android:layout_width = "50dp"
+                android:layout_height = "50dp"
+                app:fabCustomSize="50dp"
+                android:backgroundTint="@color/sectheme"
+                android:src="@drawable/ic_baseline_star_24"
+                app:elevation="2dp"
+                android:layout_gravity="center"
+                tools:targetApi="lollipop" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=" 1"/>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id = "@+id/fab4"
+                android:layout_width = "50dp"
+                android:layout_height = "50dp"
+                app:fabCustomSize="50dp"
+                app:elevation="2dp"
+                android:backgroundTint="@color/sectheme"
+                android:src="@drawable/ic_baseline_arrow_downward_24"
+                android:layout_gravity="center"
+                tools:targetApi="lollipop" />
+    </LinearLayout>
 
 </RelativeLayout>

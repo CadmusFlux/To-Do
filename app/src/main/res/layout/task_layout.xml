@@ -7,16 +7,17 @@
     xmlns:tool="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardElevation="4dp"
-    app:cardCornerRadius="8dp"
-    android:layout_marginHorizontal="16dp"
-    android:layout_marginVertical="16dp"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="25dp"
+    android:layout_marginTop="26dp"
+    android:backgroundTint="@color/colorPrimary"
     >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp">
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="4dp">
 
         <!-- Checkbox for marking the task as complete or not. -->
         <CheckBox
@@ -24,10 +25,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tool:text="Study"
+            android:fontFamily="@font/roboto_medium"
+            android:textSize="14sp"
+            android:textColor="@color/white"
             android:paddingStart="5dp"
             android:paddingLeft="5dp"
             tool:ignore="RtlSymmetry"
-            android:buttonTint="@color/theme"
+            android:buttonTint="@color/white"
             tool:targetApi="lollipop" />
 
     </RelativeLayout>
