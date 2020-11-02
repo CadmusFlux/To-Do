@@ -1,7 +1,9 @@
 package com.personal.todoist;
 //Main activity Page.
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -10,9 +12,11 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.personal.todoist.Adapter.ToDoAdapter;
 import com.personal.todoist.Model.ToDoModel;
@@ -47,6 +51,13 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+//      Code for Bottom Navigation
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+        bottomNav.setOnNavigationItemSelectedListener(navListener);
+
+
+//        Code for TO-DO
         dateTimeDisplay = (TextView)findViewById(R.id.datetext);
         calendar = Calendar.getInstance();
         dateFormat = new SimpleDateFormat("EEE, MMM d");
@@ -84,6 +95,27 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
             }
         });
     }
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                    Fragment selectedFragment = null;
+                    switch (item.getItemId()) {
+                        case R.id.page_1:
+                            selectedFragment = new TodoFragment();
+                            break;
+                        case R.id.page_2:
+                            selectedFragment = new CountdownFragment();
+                            break;
+                        case R.id.page_3:
+                            selectedFragment = new PodcastFragment();
+                            break;
+                    }
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                            selectedFragment).commit();
+                    return true;
+                }
+            };
 
     @Override
     public void handleDialogClose(DialogInterface dialog){
