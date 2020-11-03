@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/page_1"
+        android:id="@+id/todo"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_favorite_24"
         android:title="Fav"/>
     <item
-        android:id="@+id/page_2"
+        android:id="@+id/countdown"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_arrow_downward_24"
         android:title="Down"/>
     <item
-        android:id="@+id/page_3"
+        android:id="@+id/podcast"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_edit"
         android:title="Edit"/>

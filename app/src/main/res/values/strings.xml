@@ -6,4 +6,7 @@
     <string name="Save_button">Save</string>
     <string name="confirmation">Are you sure you want to delete this Task?</string>
     <string name="descript">MainImage</string>
+    <string name="app_name1">Count Down Timer</string>
+    <string name="hint_minute">Minute</string>
+    <string name="message_minutes">Please Enter Minutes…</string>
 </resources>

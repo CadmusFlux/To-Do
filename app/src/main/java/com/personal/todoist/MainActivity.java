@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
 
 
 //        Code for TO-DO
-        dateTimeDisplay = (TextView)findViewById(R.id.datetext);
+        dateTimeDisplay = findViewById(R.id.datetext);
         calendar = Calendar.getInstance();
         dateFormat = new SimpleDateFormat("EEE, MMM d");
         date  = dateFormat.format(calendar.getTime());
@@ -101,13 +101,13 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                     Fragment selectedFragment = null;
                     switch (item.getItemId()) {
-                        case R.id.page_1:
+                        case R.id.todo:
                             selectedFragment = new TodoFragment();
                             break;
-                        case R.id.page_2:
+                        case R.id.countdown:
                             selectedFragment = new CountdownFragment();
                             break;
-                        case R.id.page_3:
+                        case R.id.podcast:
                             selectedFragment = new PodcastFragment();
                             break;
                     }
