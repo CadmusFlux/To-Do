@@ -60,8 +60,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginStart="40dp"
-            android:background="@mipmap/ic_stop"
-            android:onClick="playBtnClick">
+            android:background="@mipmap/ic_stop">
+<!--            android:onClick="playBtnClick"-->
         </ImageButton>
         <TextView
             android:layout_width="0dp"
