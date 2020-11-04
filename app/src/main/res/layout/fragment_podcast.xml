@@ -12,10 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="275dp"
         android:id="@+id/imageView1"
-        android:src="@drawable/photo1"
+        android:src="@drawable/podcast"
         android:scaleType="fitCenter"
-        app:riv_corner_radius_bottom_right="125dp"
-        app:riv_corner_radius_bottom_left="125dp"
+        app:riv_corner_radius_bottom_right="105dp"
+        app:riv_corner_radius_bottom_left="105dp"
         app:riv_mutate_background="true"
         />
 
@@ -26,22 +26,25 @@
         android:layout_marginTop="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp">
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/Heal"-->
+<!--            android:letterSpacing="0.05"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textColor="@color/fontDark1"-->
+<!--            android:fontFamily="@font/abrilfatface_regular"-->
+<!--            android:textStyle="bold"-->
+<!--            />-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/black"
+            android:text="@string/Cast"
             android:textSize="25sp"
+            android:letterSpacing="0.01"
             android:textColor="@color/fontDark1"
-            android:fontFamily="@font/abrilfatface_regular"
-            android:textStyle="bold"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/noir"
-            android:textSize="23sp"
-            android:textColor="@color/fontDark1"
-            android:fontFamily="@font/abrilfatface_regular"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_bold"
             />
     </LinearLayout>
     <LinearLayout
@@ -113,7 +116,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/playtext"
+                android:layout_marginLeft="5dp"
+                android:text="@string/defaulttext"
                 android:textColor="@color/fontDark1"
                 />
         </LinearLayout>
@@ -140,7 +144,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/downloadtext"
+                android:layout_marginLeft="5dp"
+                android:text="@string/defaulttext"
                 android:textColor="@color/fontDark1"
                 />
         </LinearLayout>
@@ -168,7 +173,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/favtext"
+                android:text="@string/defaulttext"
                 android:textColor="@color/fontDark1"
                 android:layout_marginLeft="5dp"
                 />
@@ -196,7 +201,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/sharetext"
+                android:layout_marginLeft="5dp"
+                android:text="@string/defaulttext"
                 android:textColor="@color/fontDark1"
                 />
         </LinearLayout>

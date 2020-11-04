@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/theme">
+    android:background="@color/background">
+
 
     <ProgressBar
         android:id="@+id/progressBarCircle"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="270dp"
-        android:layout_height="270dp"
+        android:layout_width="290dp"
+        android:layout_height="290dp"
         android:layout_centerInParent="true"
         android:background="@drawable/drawable_circle_dark_blue"
         android:indeterminate="false"
@@ -26,22 +28,22 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:hint="hint_minute"
+        android:hint="@string/hint_minute1"
         android:inputType="number"
-        android:maxLength="15"
+        android:maxLength="25"
         android:maxLines="1"
-        android:minEms="5"
-        android:text="1"
-        android:textColor="@color/sectheme"
-        android:textColorHint="@color/colorAccent" />
+        android:maxEms="2"
+        android:text="@string/_25"
+        android:textColor="@color/colorAccent1"
+        app:backgroundTint="@color/theme" />
 
     <TextView
         android:id="@+id/textViewTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="00:01:00"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/_00_25_00"
+        android:textColor="@color/colorAccent1"
         android:textSize="40sp" />
 
     <ImageView
@@ -56,11 +58,11 @@
 
     <ImageView
         android:id="@+id/imageViewStartStop"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
         android:layout_below="@+id/progressBarCircle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:src="@drawable/icon_start" />
+        android:src="@mipmap/ic_stop" />
 
 </RelativeLayout>

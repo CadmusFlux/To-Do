@@ -20,7 +20,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View mView =  inflater.inflate(R.layout.fragment_podcast, container, false);
-        playBtn = (ImageButton) mView.findViewById(R.id.playBtn);
+        playBtn = mView.findViewById(R.id.playBtn);
         playBtn.setOnClickListener(this);
         mp = MediaPlayer.create(getActivity(),R.raw.furelise);
         return mView;

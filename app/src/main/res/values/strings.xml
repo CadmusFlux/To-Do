@@ -9,14 +9,18 @@
     <string name="app_name1">Count Down Timer</string>
     <string name="hint_minute">Minute</string>
     <string name="message_minutes">Please Enter Minutes…</string>
-    <string name="black">Black</string>
-    <string name="noir">Noir</string>
+    <string name="Heal">Heal</string>
+    <string name="Cast">HealCast</string>
     <string name="current_song">Fur Elise</string>
     <string name="playlist">Beethoven</string>
     <string name="playtext">420</string>
     <string name="downloadtext">250</string>
     <string name="favtext">    20</string>
     <string name="sharetext">550</string>
-    <string name="nexttext">0:00</string>
-    <string name="currenttime">0:00</string>
+    <string name="defaulttext">70</string>
+    <string name="nexttext">2:42</string>
+    <string name="currenttime">2:42</string>
+    <string name="hint_minute1">hint_minute</string>
+    <string name="_25">25</string>
+    <string name="_00_25_00">00:25:00</string>
 </resources>
