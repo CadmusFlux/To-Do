@@ -8,4 +8,12 @@
     <color name="background">#F1FAEE</color>
     <color name="sectheme">#E0AAFF</color>
     <color name="white">#FFFFFF</color>
+    <color name="colorPrimary1">#6200EE</color>
+    <color name="colorPrimaryDark1">#3700B3</color>
+    <color name="colorAccent1">#03DAC5</color>
+    <color name="fontDark1">#000</color>
+    <color name="matte1">#383838</color>
+    <color name="lightgray1">#FAFAFA</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="darkgrey1">#D0D0D0</color>
 </resources>
