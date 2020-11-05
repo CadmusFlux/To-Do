@@ -39,9 +39,13 @@
                         android:layout_centerInParent="true"
                         android:id="@+id/datetext"
                         android:textSize="32sp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="40dp"
+                        android:layout_alignParentLeft="true"
                         android:textColor="@color/white"
-
-                         />
+                        android:layout_marginStart="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="40dp" />
 
 
             </RelativeLayout>

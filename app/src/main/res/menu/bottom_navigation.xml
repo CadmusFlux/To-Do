@@ -4,16 +4,16 @@
     <item
         android:id="@+id/todo"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_favorite_24"
-        android:title="Fav"/>
+        android:icon="@drawable/todo_logo"
+        android:title="To-Do"/>
     <item
         android:id="@+id/countdown"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_arrow_downward_24"
-        android:title="Down"/>
+        android:icon="@drawable/countdown"
+        android:title="Timer"/>
     <item
         android:id="@+id/podcast"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_edit"
-        android:title="Edit"/>
+        android:icon="@drawable/podcast_logo"
+        android:title="Healcast"/>
 </menu>
