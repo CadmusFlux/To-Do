@@ -38,10 +38,14 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
     private ToDoAdapter tasksAdapter;
     private FloatingActionButton fab;
     private List<ToDoModel> taskList;
-    private TextView dateTimeDisplay;
+    private TextView dayDisplay;
     private Calendar calendar;
     private SimpleDateFormat dateFormat;
     private String date;
+    private TextView dateDisplay;
+    private Calendar calendar1;
+    private SimpleDateFormat dateFormat1;
+    private String date1;
 
 
     @SuppressLint("SimpleDateFormat")
@@ -58,11 +62,17 @@ public class MainActivity extends AppCompatActivity implements DialogCloseListen
 
 
 //        Code for TO-DO
-        dateTimeDisplay = findViewById(R.id.datetext);
+        dayDisplay = findViewById(R.id.daytext);
         calendar = Calendar.getInstance();
-        dateFormat = new SimpleDateFormat("EEE, MMM d");
+        dateFormat = new SimpleDateFormat("EEEE");
         date  = dateFormat.format(calendar.getTime());
-        dateTimeDisplay.setText(date);
+        dayDisplay.setText(date);
+
+        dateDisplay = findViewById(R.id.datetext);
+        calendar1 = Calendar.getInstance();
+        dateFormat1 = new SimpleDateFormat("dd MMM");
+        date1  = dateFormat1.format(calendar1.getTime());
+        dateDisplay.setText(date1);
 
         Objects.requireNonNull(getSupportActionBar()).hide();
 

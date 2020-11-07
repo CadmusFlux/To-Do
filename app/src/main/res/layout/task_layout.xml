@@ -11,7 +11,7 @@
     app:cardCornerRadius="25dp"
     android:layout_marginTop="26dp"
     android:backgroundTint="@color/colorPrimary"
-    >
+    tool:targetApi="lollipop">
 
     <RelativeLayout
         android:layout_width="match_parent"

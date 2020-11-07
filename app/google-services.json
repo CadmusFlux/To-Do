@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "184637547977",
+    "firebase_url": "https://todoist-853c3.firebaseio.com",
+    "project_id": "todoist-853c3",
+    "storage_bucket": "todoist-853c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184637547977:android:54cb508c0e8346a02b3418",
+        "android_client_info": {
+          "package_name": "com.personal.todoist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184637547977-ttrq4fuluee9uophd6ea5q8tq8asq82e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZyeXokqpetRXy-p-N-VTExivGtyFU6y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184637547977-ttrq4fuluee9uophd6ea5q8tq8asq82e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
