@@ -99,7 +99,7 @@ public class CountdownFragment extends Fragment implements View.OnClickListener 
             // showing the reset icon
             imageViewReset.setVisibility(View.VISIBLE);
             // changing play icon to stop icon
-            imageViewStartStop.setImageResource(R.drawable.icon_stop);
+            imageViewStartStop.setImageResource(R.mipmap.ic_pause);
             // making edit text not editable
             editTextMinute.setEnabled(false);
             // changing the timer status to started
@@ -112,7 +112,7 @@ public class CountdownFragment extends Fragment implements View.OnClickListener 
             // hiding the reset icon
             imageViewReset.setVisibility(View.GONE);
             // changing stop icon to start icon
-            imageViewStartStop.setImageResource(R.drawable.icon_start);
+            imageViewStartStop.setImageResource(R.mipmap.ic_stop);
             // making edit text editable
             editTextMinute.setEnabled(true);
             // changing the timer status to stopped

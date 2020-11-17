@@ -53,7 +53,7 @@
         android:layout_below="@+id/textViewTime"
         android:layout_centerInParent="true"
         android:layout_marginTop="30dp"
-        android:src="@drawable/icon_reset"
+        android:src="@drawable/ic_reset"
         android:visibility="gone" />
 
     <ImageView
