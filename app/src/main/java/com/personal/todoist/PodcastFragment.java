@@ -16,6 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Timer;
@@ -24,9 +25,10 @@ import java.util.TimerTask;
 public class PodcastFragment extends Fragment implements View.OnClickListener {
 
     ImageButton playBtn;
+    TextView songName,artistName;
     MediaPlayer mp;
     SeekBar seekBar;
-    ImageButton logout;
+    private FloatingActionButton logout;
     FirebaseAuth fAuth;
     @Nullable
     @Override
@@ -35,8 +37,28 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
         playBtn = mView.findViewById(R.id.playBtn);
         seekBar =  mView.findViewById(R.id.seekBar);
         logout = mView.findViewById(R.id.Logout);
+        songName = mView.findViewById(R.id.song_name);
+        artistName = mView.findViewById(R.id.artist_name);
+        ImageButton play1 = mView.findViewById(R.id.playlist1);
+        ImageButton play2 = mView.findViewById(R.id.playlist2);
+        ImageButton play3 = mView.findViewById(R.id.playlist3);
+        ImageButton play4 = mView.findViewById(R.id.playlist4);
+        ImageButton play5 = mView.findViewById(R.id.playlist5);
+        ImageButton play6 = mView.findViewById(R.id.playlist6);
+        ImageButton play7 = mView.findViewById(R.id.playlist7);
+        ImageButton play8 = mView.findViewById(R.id.playlist8);
+
         playBtn.setOnClickListener(this);
         logout.setOnClickListener(this);
+        play1.setOnClickListener(this);
+        play2.setOnClickListener(this);
+        play3.setOnClickListener(this);
+        play4.setOnClickListener(this);
+        play5.setOnClickListener(this);
+        play6.setOnClickListener(this);
+        play7.setOnClickListener(this);
+        play8.setOnClickListener(this);
+
         mp = MediaPlayer.create(getActivity(),R.raw.furelise);
         return mView;
     }
@@ -55,6 +77,39 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 enableSeekBar();
                 break;
+            case R.id.playlist1:
+                songName.setText("Playlist 1");
+                artistName.setText("artist 1");
+                break;
+            case R.id.playlist2:
+                songName.setText("Playlist 2");
+                artistName.setText("artist 2");
+                break;
+            case R.id.playlist3:
+                songName.setText("Playlist 3");
+                artistName.setText("artist 3");
+                break;
+            case R.id.playlist4:
+                songName.setText("Playlist 4");
+                artistName.setText("artist 4");
+                break;
+            case R.id.playlist5:
+                songName.setText("Playlist 5");
+                artistName.setText("artist 5");
+                break;
+            case R.id.playlist6:
+                songName.setText("Playlist 6");
+                artistName.setText("artist 6");
+                break;
+            case R.id.playlist7:
+                songName.setText("Playlist 7");
+                artistName.setText("artist 7");
+                break;
+            case R.id.playlist8:
+                songName.setText("Playlist 8");
+                artistName.setText("artist 8");
+                break;
+
             case R.id.Logout:
                 FirebaseAuth.getInstance().signOut();
                 startActivity(new Intent(getActivity().getApplicationContext(),SplashActivity.class));
