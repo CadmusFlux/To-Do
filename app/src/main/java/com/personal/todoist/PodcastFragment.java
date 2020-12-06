@@ -103,7 +103,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 mp = MediaPlayer.create(getActivity(),R.raw.abcdef);
                 songName.setText("Study");
                 artistName.setText("Artist 1");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play2));
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.study));
                 break;
             case R.id.playlist2:
                 if (mp != null) {
@@ -112,7 +112,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 mp = MediaPlayer.create(getActivity(),R.raw.abc);
                 songName.setText("Meditate");
                 artistName.setText("Artist 2");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play1));
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.meditation));
                 break;
             case R.id.playlist3:
                 if (mp != null) {
@@ -120,8 +120,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abcd);
                 songName.setText("Sleep");
-                artistName.setText("artist 3");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play3));
+                artistName.setText("Artist 3");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.sleep));
                 break;
             case R.id.playlist4:
                 if (mp != null) {
@@ -129,8 +129,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abcde);
                 songName.setText("Workout");
-                artistName.setText("artist 4");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play5));
+                artistName.setText("Artist 4");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.gym));
                 break;
             case R.id.playlist5:
                 if (mp != null) {
@@ -138,8 +138,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abcdef);
                 songName.setText("Gaming");
-                artistName.setText("artist 5");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play4));
+                artistName.setText("Artist 5");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.gaming1));
                 break;
             case R.id.playlist6:
                 if (mp != null) {
@@ -147,8 +147,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abc);
                 songName.setText("Groovy");
-                artistName.setText("artist 6");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play1));
+                artistName.setText("Artist 6");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.groovy));
                 break;
             case R.id.playlist7:
                 if (mp != null) {
@@ -156,8 +156,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abcd);
                 songName.setText("Coding");
-                artistName.setText("artist 7");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play2));
+                artistName.setText("Artist 7");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.coding));
                 break;
             case R.id.playlist8:
                 if (mp != null) {
@@ -165,8 +165,8 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 }
                 mp = MediaPlayer.create(getActivity(),R.raw.abcde);
                 songName.setText("Motivation");
-                artistName.setText("artist 8");
-                podcastImage.setBackground(getResources().getDrawable(R.drawable.play3));
+                artistName.setText("Artist 8");
+                podcastImage.setBackground(getResources().getDrawable(R.drawable.motivation));
                 break;
 
             case R.id.Logout:
