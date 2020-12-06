@@ -167,7 +167,7 @@
         android:layout_marginTop="28dp"
         android:text="Register"
         android:textColor="@color/white"
-        android:background="@drawable/rounded_corners"
+        android:background="@drawable/rounded_corners1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

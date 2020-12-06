@@ -21,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="275dp"
             android:id="@+id/imageView1"
-            android:src="@drawable/podcast"
+            android:layout_marginTop="-15dp"
+            android:background="@drawable/podcast"
             android:scaleType="fitCenter"
             app:riv_corner_radius_bottom_right="105dp"
             app:riv_corner_radius_bottom_left="105dp"
@@ -93,6 +94,7 @@
                 android:layout_gravity="center" />
 
             <TextView
+                android:id="@+id/song_duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/currenttime"
