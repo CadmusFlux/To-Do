@@ -100,7 +100,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcdef);
+                mp = MediaPlayer.create(getActivity(),R.raw.study);
                 songName.setText("Study");
                 artistName.setText("Artist 1");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.study));
@@ -109,7 +109,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abc);
+                mp = MediaPlayer.create(getActivity(),R.raw.meditation);
                 songName.setText("Meditate");
                 artistName.setText("Artist 2");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.meditation));
@@ -118,7 +118,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcd);
+                mp = MediaPlayer.create(getActivity(),R.raw.sleep);
                 songName.setText("Sleep");
                 artistName.setText("Artist 3");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.sleep));
@@ -127,7 +127,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcde);
+                mp = MediaPlayer.create(getActivity(),R.raw.workout);
                 songName.setText("Workout");
                 artistName.setText("Artist 4");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.gym));
@@ -136,7 +136,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcdef);
+                mp = MediaPlayer.create(getActivity(),R.raw.gaming);
                 songName.setText("Gaming");
                 artistName.setText("Artist 5");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.gaming1));
@@ -145,7 +145,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abc);
+                mp = MediaPlayer.create(getActivity(),R.raw.groovy);
                 songName.setText("Groovy");
                 artistName.setText("Artist 6");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.groovy));
@@ -154,7 +154,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcd);
+                mp = MediaPlayer.create(getActivity(),R.raw.coding);
                 songName.setText("Coding");
                 artistName.setText("Artist 7");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.coding));
@@ -163,7 +163,7 @@ public class PodcastFragment extends Fragment implements View.OnClickListener {
                 if (mp != null) {
                     mp.stop();
                 }
-                mp = MediaPlayer.create(getActivity(),R.raw.abcde);
+                mp = MediaPlayer.create(getActivity(),R.raw.motivation);
                 songName.setText("Motivation");
                 artistName.setText("Artist 8");
                 podcastImage.setBackground(getResources().getDrawable(R.drawable.motivation));
