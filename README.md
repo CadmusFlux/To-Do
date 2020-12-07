@@ -3,12 +3,17 @@
 A Task Check-list app
 
 
-![](Todo_ui.jpg?raw=true) ![](countdown_UI.jpg?raw=true) ![](podcast_Ui.jpg?raw=true)
 
-
-<p float="left">
-  <img src="/Todo_ui.jpg" width="400" />
-  <img src="/countdown_UI.jpg" width="400" /> 
-  <img src="/podcast_Ui.jpg" width="400" />
-</p>
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="/Todo_ui.jpg" width=270 height=480></td>
+    <td><img src="/countdown_UI.jpg" width=270 height=480></td>
+    <td><img src="/podcast_Ui.jpg" width=270 height=480></td>
+  </tr>
+ </table>
 
