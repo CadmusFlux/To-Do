@@ -3,9 +3,8 @@
 A Task Check-list app
 
 
-![](Todo_ui.jpg1?raw=true)
-![](countdown_UI.jpg1?raw=true)
-![](podcast_Ui.jpg1?raw=true)
+![](Todo_ui.jpg?raw=true) ![](countdown_UI.jpg?raw=true) ![](podcast_Ui.jpg?raw=true)
+
 
 <p float="left">
   <img src="/Todo_ui.jpg" width="400" />
