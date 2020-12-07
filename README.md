@@ -8,8 +8,8 @@ A Task Check-list app
 ![](podcast_Ui.jpg1?raw=true)
 
 <p float="left">
-  <img src="/Todo_ui.jpg" width="300" />
-  <img src="/countdown_UI.jpg" width="300" /> 
-  <img src="/podcast_Ui.jpg" width="300" />
+  <img src="/Todo_ui.jpg" width="400" />
+  <img src="/countdown_UI.jpg" width="400" /> 
+  <img src="/podcast_Ui.jpg" width="400" />
 </p>
 
