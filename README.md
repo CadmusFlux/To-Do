@@ -1,6 +1,6 @@
 # To-Do
 
-An accountability app that helps users in Habit tracking and increasing productivity in order to have a better approach to their goals.
+> An accountability app that helps users in Habit tracking and increasing productivity in order to have a better approach to their goals.
 
 This app provides three features:
   
