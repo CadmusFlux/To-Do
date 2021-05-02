@@ -8,9 +8,9 @@
 
   This app provides three features:
   
-   * A task list to help them set priority to their goals/chores.
-   * A Pomodoro timer to provide study/break timer pairs to increase productivity.
-   * A podcast app with various genres to help you better emulate the environment around you.
+    1. A task list to help them set priority to their goals/chores.
+    2. A Pomodoro timer to provide study/break timer pairs to increase productivity.
+    3. A podcast app with various genres to help you better emulate the environment around you.
  
 ---
 
