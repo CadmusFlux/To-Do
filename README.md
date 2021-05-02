@@ -1,15 +1,16 @@
 # To-Do
 
-A Task Check-list app
+An accountability app that helps users in Habit tracking and increasing productivity in order to have a better approach to their goals.
+
+This app provides three features:
+  
+  * A task list to help them set priority to their goals/chores.
+  * A Pomodoro timer to provide study/break timer pairs to increase productivity.
+  * A podcast app with various genres to help you better emulate the environment around you.
 
 
 
-
-The easiest way I can think of solving this is using the tables included in GitHub's flavored markdown.
-
-To your specific example it would look something like this:
-
-Solarized dark             |  Solarized Ocean             |   Podcast
+To-Do List             |  Pomodoro Timer             |   Podcast & Lo-Fi
 :-------------------------:|:-------------------------:|:-------------------------:
 ![ToDo list](todo.jpg)  |  ![Timer](countdown.jpg)  |  ![Podcast](podcast.jpg)
 
