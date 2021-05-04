@@ -14,6 +14,12 @@
  
 ---
 
+* Presentation for the app : https://siot365-my.sharepoint.com/:p:/g/personal/71913539h_siot365_onmicrosoft_com/EeS4-5uuUhVLgH0V_QIrtowBtQp--KWr70HOPtJN4j3cCA?e=yCg7bY
+
+* Working of the app :  
+https://user-images.githubusercontent.com/26283969/117014550-87894600-ad0e-11eb-8492-c6cc32d70e8c.mp4
+
+---
 
 To-Do List             |  Pomodoro Timer             |   Podcast & Lo-Fi
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -22,8 +28,4 @@ To-Do List             |  Pomodoro Timer             |   Podcast & Lo-Fi
 
 ---
 
-* Presentation for the app : https://siot365-my.sharepoint.com/:p:/g/personal/71913539h_siot365_onmicrosoft_com/EeS4-5uuUhVLgH0V_QIrtowBtQp--KWr70HOPtJN4j3cCA?e=yCg7bY
-
-* Working of the app :  
-https://user-images.githubusercontent.com/26283969/117014550-87894600-ad0e-11eb-8492-c6cc32d70e8c.mp4
 
